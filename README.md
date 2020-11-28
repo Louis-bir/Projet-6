@@ -18,9 +18,9 @@ Ce projet est découpé en 2 grosses parties : **Partie NLP** & **Partie Compute
 - Réduction dimensionnelle (**PCA**)
 - Clustering (**Kmeans**, **Gaussian Mixture Model**) et mesure de qualité des clusters avec le **coefficient de silhouette**
 - Mesure de similarité entre du Clustering via **Indice de Rand Ajusté** (ARI)
-- **Preprocessing** des images et création d'un Bag of Visual Word (BOVW) via l'algorithme ORB
-- **Partie Deep Learning :** Transfer Learning sur VGG16 (CNN)
-- Stacking de l'approche NLP & Computer Vision et création de features.
+- **Preprocessing** des images et création d'un Bag of Visual Word (BOVW) via l'algorithme **ORB**
+- **Partie Deep Learning :** Transfer Learning sur VGG16 (**CNN**)
+- Stacking de l'approche NLP & Computer Vision et création de features puis utilisation d'une **RandomForest**
 
 
 ## Overview performances :
